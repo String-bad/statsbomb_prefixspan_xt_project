@@ -14,9 +14,6 @@ This repo provides a fully runnable pipeline to:
 ## Quickstart
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
 pip install -r requirements.txt
 
 python -m sbxt.main --output_dir outputs --download 1     --grid_x 12 --grid_y 8 --minsup 0.005 --maxlen 5 --top_k 30
